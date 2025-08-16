@@ -29,6 +29,11 @@ This document outlines a high-level plan for adding GitLab support to Open SWE. 
 ## Configuration Constants
 - Introduce GitLab-specific constants and headers in `@open-swe/shared` for tokens and project identifiers.
 
+## Testing
+- Add unit tests for API wrappers covering success and failure cases plus token refresh flows.
+- Create integration tests against mocked GitLab endpoints for issues, merge requests, and git operations.
+- Verify git workflow helpers by cloning repositories, creating branches, and pushing commits in a test environment.
+
 ## Future Work
 - Web UI components for authenticating with GitLab.
 - GitLab webhook handlers to trigger tasks from issues or merge requests.
