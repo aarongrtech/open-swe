@@ -17,6 +17,11 @@ export const GITHUB_AUTH_STATE_COOKIE = "github_auth_state";
 export const GITHUB_INSTALLATION_ID_COOKIE = "github_installation_id";
 export const GITHUB_TOKEN_TYPE_COOKIE = "github_token_type";
 
+// GitLab authentication cookies and headers
+export const GITLAB_TOKEN_COOKIE = "x-gitlab-access-token";
+export const GITLAB_PROJECT_ID_HEADER = "x-gitlab-project-id";
+export const GITLAB_TOKEN_TYPE_COOKIE = "gitlab_token_type";
+
 export const MANAGER_GRAPH_ID = "manager";
 export const PLANNER_GRAPH_ID = "planner";
 export const PROGRAMMER_GRAPH_ID = "programmer";
