@@ -34,6 +34,20 @@ Open SWE is an open-source cloud-based asynchronous coding agent built with [Lan
 - 🧑‍💻 **End to end task management**: Open SWE will automatically create GitHub issues for tasks, and create pull requests which will close the issue when implementation is complete.
 
 
+## Setup
+
+Run the setup script to install dependencies:
+
+```bash
+yarn setup
+```
+
+On Windows PowerShell:
+
+```powershell
+yarn setup:ps
+```
+
 ## Usage
 
 Open SWE can be used in multiple ways:

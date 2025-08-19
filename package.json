@@ -15,7 +15,9 @@
     "format:check": "turbo format:check",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
-    "test": "turbo test"
+    "test": "turbo test",
+    "setup": "bash scripts/setup.sh",
+    "setup:ps": "powershell -ExecutionPolicy Bypass -File scripts/setup.ps1"
   },
   "devDependencies": {
     "turbo": "^2.5.0",
